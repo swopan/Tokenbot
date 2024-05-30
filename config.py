@@ -10,19 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7187696920:AAGrt-jcGETiNCwq06eQFKYObe5WSd0hy6c")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7319154927:AAGVk5DzC9wRSotsYa4N4UhW8Wfaj9KV3sk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "23086312"))
+APP_ID = int(os.environ.get("APP_ID", "21707242"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "9504d38504fb7941da3ae68ca2796dff")
+API_HASH = os.environ.get("API_HASH", "fec925df48cd2e0393c4bf382ea8c861")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001761447919"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001674813715"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1707772962"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6367302898"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -39,7 +39,7 @@ TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001567609802"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002223132983"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1707099600,1709824863").split()):
+    for x in (os.environ.get("ADMINS", "6367302898,1709824863").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -67,8 +67,8 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
-ADMINS.append(1707772962)
-ADMINS.append(1707099600)
+ADMINS.append(6367302898)
+ADMINS.append(6367302898)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
