@@ -31,8 +31,8 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://sunitverma080:jCOU0WgHZ9z2EEra@verification1.xqjkjto.mongodb.net/?retryWrites=true&w=majority&appName=Verification1"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inshorturl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "d085b925c2b0bafde56a5729a018f45655ad9602")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantearn.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "d6aa3e5f39383d7d9d3d860a6b147df96a7a7096")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
